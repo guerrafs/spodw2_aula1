@@ -1,6 +1,5 @@
 let string = 'x';
-let i;
-for (i=1;i<=7;i++){
+while(string.length <= 7) {
     console.log(string);
     string = string + 'x';
 }
